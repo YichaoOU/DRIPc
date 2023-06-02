@@ -1,5 +1,11 @@
 Pipeline to call DRIP peaks with stochhmm
 
+stjude
+
+```
+module load gcc/12.2.0
+~/Programs/StochHMM-0.38/stochhmm 
+```
 DRIP.hmm is the optimized HMM file.
 
 1. ./wig2fa.pl -i NT2_DRIP.wig -o NT2_DRIP.customfa
